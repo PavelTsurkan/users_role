@@ -13,4 +13,5 @@ class User(models.Model):
     email = models.EmailField()
     role = models.ForeignKey(Role, on_delete=models.DO_NOTHING)
 
-    
+
+
